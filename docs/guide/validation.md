@@ -187,7 +187,7 @@ const yourAwesomeComponent = {
             label: 'Age',
             validations: [
               Validator({
-                validator: min(18),
+                validator: min(19),
                 text: 'You must be older than 18',
               }),
             ],
@@ -221,7 +221,7 @@ const yourAwesomeComponent = {
             validations: [
               Validator({
                 validator: max(100),
-                text: 'Tips canmot be more than 100 €',
+                text: 'Tips cannot be more than 100 €',
               }),
             ],
           }),
